@@ -1,0 +1,48 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    border: red solid 1px;
+    width: 100%;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+nav{
+
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+
+}
+nav>div:last-of-type>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+.menu>li>ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu>li>a{
+    display: flex;
+    justify-content: center;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
