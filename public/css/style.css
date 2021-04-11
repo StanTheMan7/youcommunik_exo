@@ -1,48 +1,81 @@
-
-header{
+body{
     display: flex;
     justify-content: center;
-    border: red solid 1px;
-    width: 100%;
+    font-family: 'Baloo 2', cursive;
 }
-section{
-    display: flex;
-    justify-content: center;
+.div-principal{
+    width: 80%;
+}
+header{
+    display: inline-block;
+    width: 100%;
+    color: white;
 }
 nav{
-
-    justify-content: space-between;
-    background-color: black;
-    width: 100%;
-
-}
-nav>div:last-of-type>ul{
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    display: flex; 
+}
+.logo>img{
+    margin: 30px;
+    width: 100%;
 }
 .menu{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    padding: 0;
+    display:flex;
+    width: 60%;
+    justify-content: flex-end;
+}
+.menu>ul{
+    display:flex;
+    justify-content: space-evenly;
     width: 100%;
+    list-style: none;
 }
-.menu>li>ul{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.menu>li{
+.menu>ul>li {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
-.menu>li>a{
+.menu>ul>li>img {
+    height: 50px;
+    width: 50px;
+}
+.menu>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+#under-nav{
+    height: 230px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(63, 88, 121);
 }
-.nav-icon{
+.box-img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#txt{
+    display: inline-block;
+    font-size: 150%;
+}
+#txt h1, h3{ 
+    margin: 0;
+}
+#main-section{
+    display: flex;
+    flex-direction: column;
+}
+.background{
+    display:flex;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    border:black solid 1px;
 }
